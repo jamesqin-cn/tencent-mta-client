@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 from __future__ import print_function
 from setuptools import setup, find_packages
+import io
 
-with open("README.md", "r") as f:
+with io.open("README.md", "r", encoding='UTF-8') as f:
     long_description = f.read()
 
 setup(
     name = "tencent-mta-client",
-    version = "0.1.2",
+    version = "0.1.3",
     author = "jamesqin",
     author_email = "jamesqin@vip.qq.com",
     description = "tencent mta client is python sdk encapsulate for tencent mta api",
