@@ -14,6 +14,8 @@ pip install tencent-mta-client
 
 ## Quick Start
 ```
+from tencent.mta.client import MtaClient
+
 class Test_MtaClient(unittest.TestCase):
     def setUp(self):
         self._mta = MtaClient("<your_api_id>", "<your_app_key>")
