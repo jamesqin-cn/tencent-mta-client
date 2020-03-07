@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
 
 setup(
     name = "tencent-mta-client",
-    version = "0.1.1",
+    version = "0.1.2",
     author = "jamesqin",
     author_email = "jamesqin@vip.qq.com",
     description = "tencent mta client is python sdk encapsulate for tencent mta api",
