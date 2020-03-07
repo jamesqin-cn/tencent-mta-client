@@ -1,0 +1,6 @@
+cache
+dist
+tencent-mta-client.egg-info/
+.vscode
+*.pyc
+__pycache_
